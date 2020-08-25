@@ -300,6 +300,7 @@ plot_models <- function(...,
   if (p.shape) p <- p +
     scale_shape_manual(
       values = c(1, 16, 17, 15),
+      breaks = c("", "*", "**", "***"),
       labels = c("n.s.", "*", "**", "***")
     )
 
